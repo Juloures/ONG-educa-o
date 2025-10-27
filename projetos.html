@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Projetos sociais da ONG Educação: oportunidades de voluntariado e formas de doar."/>
+  <title>Projetos — ONG Educação</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Página inicial da ONG Educação">
+        <img src="assets/logo-educacao.svg" alt="Logotipo ONG Educação" width="120" />
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projetos Sociais</h1>
+    <p>Aqui você encontra nossos projetos, com informações sobre objetivos, impacto esperado e como participar.</p>
+
+    <section aria-labelledby="opportunities-title">
+      <h2 id="opportunities-title">Oportunidades de Voluntariado</h2>
+      <ul class="projects-list">
+        <li>
+          <article class="project-card" aria-labelledby="proj1">
+            <img src="assets/proj-alfabetizacao.svg" alt="Projeto Alfabetização — imagem" />
+            <h3 id="proj1">Projeto Alfabetização</h3>
+            <p>Oficinas de leitura e escrita para crianças de 6 a 10 anos.</p>
+            <p><strong>Vagas:</strong> 10 voluntários</p>
+            <p><a class="btn" href="cadastro.html">Candidatar-se</a></p>
+          </article>
+        </li>
+        <li>
+          <article class="project-card" aria-labelledby="proj2">
+            <img src="assets/proj-tecnologia.svg" alt="Projeto Tecnologia — imagem" />
+            <h3 id="proj2">Projeto Tecnologia</h3>
+            <p>Curso básico de informática e programação para jovens.</p>
+            <p><strong>Vagas:</strong> 15 voluntários</p>
+            <p><a class="btn" href="cadastro.html">Candidatar-se</a></p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="donate-title" class="donate-section">
+      <h2 id="donate-title">Como doar</h2>
+      <p>Doações podem ser feitas online ou por transferência bancária. As doações são aplicadas diretamente nos projetos e você recebe relatórios de transparência.</p>
+      <div class="donation-widget" role="region" aria-label="Doações">
+        <p><strong>Meta da campanha:</strong> R$ 10.000</p>
+        <progress value="4200" max="10000">42%</progress>
+        <p>Arrecadado: R$ 4.200</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year2"></span> ONG Educação — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
